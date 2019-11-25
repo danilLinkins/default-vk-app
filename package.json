@@ -1,9 +1,11 @@
 {
-  "name": "testVk",
+  "homepage": "https://danillinkins.github.io/default-vk-app/",
+  "name": "mini-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build"
   },
@@ -12,12 +14,13 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "gh-pages": "^2.1.1",
     "react-hot-loader": "^4.9.0",
     "react-scripts": "^3.1.2"
   },
   "dependencies": {
     "@vkontakte/icons": "^1.10.0",
-    "@vkontakte/vk-connect": "^1.6.9",
+    "@vkontakte/vk-connect": "^1.6.10",
     "@vkontakte/vkui": "^2.30.7",
     "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
